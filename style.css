@@ -27,3 +27,12 @@ body {
 }
 
 input { border-radius: 50px; display: block; margin: 10px 0; }
+button {
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
