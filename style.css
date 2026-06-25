@@ -7,3 +7,13 @@
     z-index: 1;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2e0249, #570a57, #a91079);
+}
+@keyframes breathe {
+    50% { background-position: 100% 100%; }
+}
