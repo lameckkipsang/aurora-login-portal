@@ -17,3 +17,13 @@ body {
 @keyframes breathe {
     50% { background-position: 100% 100%; }
 }
+.blob {
+    position: absolute;
+    width: 200px; 
+    height: 200px;
+    background: #00d2ff;
+    filter: blur(60px);
+    z-index: 0;
+}
+
+input { border-radius: 50px; display: block; margin: 10px 0; }
