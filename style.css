@@ -6,15 +6,16 @@
     border-radius: 20px;
     z-index: 1;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    background-size: 200% 200%;
-    animation: breathe 10s infinite;
+    
 }
-body {
+body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(45deg, #2e0249, #570a57, #a91079);
+    background-size: 200% 200%;
+    animation: breathe 10s infinite;
 }
 @keyframes breathe {
     50% { background-position: 100% 100%; }
@@ -34,7 +35,23 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
+button:hover{
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    color: white;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    line-height: 2;
+    display: block;
+    color: white;
+}
+.blob-1 { top: 10%; left: 10%; }
+.blob-2 { bottom: 10%; right: 10%; }
